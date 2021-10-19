@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Noto Serif Myanmar', serif !important;
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+    ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+p, span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.custom-nav {
+    padding: 0 7%;
+}
+
+.nav-link {
+    border: 1px solid #ff3e1f;
+}
+
+.nav-link:hover {
+    background-color: #ff3e1f;
+    border: none;
+}
+
+.nav-link p {
+    color: #ff3e1f;
+}
+
+.nav-link:hover p {
+    color: #fff;
+}
+
+.c-font {
+    line-height: 2rem;
+    text-align: start;
+}
+
+/**** Footer ******/
+
+.footer-link {
+    text-decoration: none;
+    color: #494949;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color: #ff3e1f;
+}
+
+.social-link:hover {
+    border: none;
+}
+
+@media (min-width:280px) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:320px) {}
+
+@media (min-width:480px) {}
+
+@media (min-width:600px) {}
+
+@media (min-width:900) {
+    .nav-link {
+        margin-top: 0;
+    }
+}
+
+@media (min-width:1024px) {}
